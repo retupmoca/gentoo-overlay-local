@@ -1,0 +1,12 @@
+diff --git a/src/aig/gia/module.make b/src/aig/gia/module.make
+index c6751a3c..83179060 100644
+--- a/src/aig/gia/module.make
++++ b/src/aig/gia/module.make
+@@ -16,6 +16,7 @@ SRC +=    src/aig/gia/giaAig.c \
+     src/aig/gia/giaCSat2.c \
+     src/aig/gia/giaCTas.c \
+     src/aig/gia/giaCut.c \
++    src/aig/gia/giaDeep.c \
+     src/aig/gia/giaDfs.c \
+     src/aig/gia/giaDup.c \
+     src/aig/gia/giaEdge.c \
