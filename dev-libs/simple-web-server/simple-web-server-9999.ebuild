@@ -15,7 +15,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
-RDEPEND=""
+RDEPEND="dev-libs/boost"
 DEPEND="dev-util/cmake ${RDEPEND}"
 BDEPEND=""
 
