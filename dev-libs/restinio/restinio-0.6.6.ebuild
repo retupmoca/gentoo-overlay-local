@@ -14,8 +14,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
-DEPEND=""
-RDEPEND="${DEPEND}"
+DEPEND="dev-util/cmake"
+RDEPEND="dev-cpp/asio dev-libs/libfmt net-libs/http-parser"
 BDEPEND=""
 
 CMAKE_USE_DIR="${WORKDIR}/${P}/dev/restinio"
@@ -27,6 +27,7 @@ src_prepare(){
 src_configure(){
 	local mycmakeargs=(
 		"-DRESTINIO_INSTALL=1"
+		"-DRESTINIO_USE_EXTERNAL_HTTP_PARSER=1"
 	)
 
 
