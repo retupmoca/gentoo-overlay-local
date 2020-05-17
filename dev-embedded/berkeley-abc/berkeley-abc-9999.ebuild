@@ -17,9 +17,9 @@ DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-PATCHES=(
-	"${FILESDIR}"/${P}_add_missing_src.patch
-)
+#PATCHES=(
+#	"${FILESDIR}"/${P}_add_missing_src.patch
+#)
 
 src_install() {
 	dobin abc
