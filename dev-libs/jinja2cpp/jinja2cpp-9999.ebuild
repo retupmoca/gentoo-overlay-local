@@ -38,6 +38,7 @@ src_configure(){
 	local mycmakeargs=(
 		"-DCMAKE_BUILD_TYPE=Release"
 		"-DJINJA2CPP_DEPS_MODE=external-boost"
+		"-DJINJA2CPP_CXX_STANDARD=17"
 	)
 
 	cmake-utils_src_configure
