@@ -14,7 +14,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="sci-electronics/digilent-adept media-sound/apulse"
+DEPEND="sci-electronics/digilent-adept"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
