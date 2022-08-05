@@ -7,17 +7,19 @@ inherit cmake-utils
 
 DESCRIPTION=""
 HOMEPAGE=""
-inherit git-r3
-EGIT_REPO_URI="https://github.com/YosysHQ/nextpnr"
+SRC_URI="https://github.com/YosysHQ/nextpnr/archive/refs/tags/nextpnr-${PV}.tar.gz"
 
 LICENSE=""
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64"
 IUSE=""
 
 DEPEND="dev-util/cmake"
 RDEPEND=""
 BDEPEND=""
+
+CMAKE_USE_DIR="${WORKDIR}/nextpnr-nextpnr-${PV}"
+S="${WORKDIR}/nextpnr-nextpnr-${PV}"
 
 src_prepare(){
 	cmake-utils_src_prepare
