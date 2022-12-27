@@ -6,7 +6,7 @@ EAPI=7
 DESCRIPTION=""
 HOMEPAGE=""
 inherit git-r3
-EGIT_REPO_URI="https://github.com/berkeley-abc/abc"
+EGIT_REPO_URI="https://github.com/berkeley-abc/abc.git"
 
 LICENSE=""
 SLOT="0"
